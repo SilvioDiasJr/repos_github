@@ -3,12 +3,12 @@
 <p align="center">Liste as issues de seus repósitorios</p>
 
 <p align="center">
- <a href="#-sobre">Sobre</a> •
- <a href="#-layout">Layout</a> • 
- <a href="#-executando-o-happy">Como executar</a> • 
- <a href="#-tecnologias">Tecnologias</a> • 
- <a href="#-como-contribuir">Como contribuir</a> • 
- <a href="#-licença">Licença</a> 
+ •<a href="#-sobre"> Sobre</a> </br>
+ •<a href="#-layout"> Layout</a> </br>
+ •<a href="#-executando-o-happy"> Como executar</a> </br> 
+ •<a href="#-tecnologias"> Tecnologias</a> </br>
+ •<a href="#-como-contribuir"> Como contribuir</a> </br>
+ •<a href="#-licença"> Licença</a> 
 </p>
 
 ---
