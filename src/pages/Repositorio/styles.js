@@ -1,5 +1,15 @@
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components'
 import {Link} from 'react-router-dom'
+
+const animate = keyframes`
+  from{
+    transform: rotate(0deg)
+  }
+
+  to{
+    transform: rotate(360deg)
+  }
+`
 
 export const Loading = styled.div`
   color: #fff;
@@ -7,6 +17,10 @@ export const Loading = styled.div`
   align-items: center;
   justify-content: center;
   height: 100vh;
+
+  svg{
+    animation: ${animate} 2s infinite;
+  }
 `
 export const Container = styled.div`
   max-width: 700px;
