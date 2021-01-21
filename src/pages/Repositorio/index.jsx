@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { FaArrowLeft } from 'react-icons/fa'
+import { FaArrowLeft, FaSpinner } from 'react-icons/fa'
 
 import api from '../../services/api'
 
@@ -70,7 +70,7 @@ function Repositorio({ match }) {
   if (loading) {
     return (
       <Loading>
-        <h1>Carregando...</h1>
+        <FaSpinner color="#fff" size={80}/>
       </Loading>
     )
   }
