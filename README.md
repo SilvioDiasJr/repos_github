@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+<h1 align="center">Issues GitHub</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">Liste as issues de seus repósitorios</p>
 
-## Available Scripts
+<p align="center">
+ <a href="#-sobre">Sobre</a> •
+ <a href="#-layout">Layout</a> • 
+ <a href="#-executando-o-happy">Como executar</a> • 
+ <a href="#-tecnologias">Tecnologias</a> • 
+ <a href="#-como-contribuir">Como contribuir</a> • 
+ <a href="#-licença">Licença</a> 
+</p>
 
-In the project directory, you can run:
+---
 
-### `yarn start`
+## 💡 Sobre
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Aplicação desenvolvida durante o curso "React Js do zero ao avançado na pratica", visa listar as issues dos repositórios selecionados pelo usuário.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `yarn test`
+## 🎨 Layout
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+### Web
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="center">
+  <img alt="Página home" title="Página home" src="./src/assets/home.png" width="800px">
+  <br/>
+  <img alt="Sinopse" title="Sinopse" src="./src/assets/details.png" width="800px">
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 💻 Executando o Issues GitHub
 
-### `yarn eject`
+### Pré-requisitos
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+É necessário ter instalado na sua máquina para execução desse projeto:
+- <a href="https://nodejs.org/en/"> NodeJS </a>;
+- Gerenciador de pacotes Npm(já vem com o NodeJS) ou <a href="https://yarnpkg.com/getting-started/install"> Yarn </a>;
+- <a href="https://pt-br.reactjs.org/"> React </a>;
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### ♊ Clonando o Repositório
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
 
-## Learn More
+$ git clone https://github.com/SilvioDiasJr/repos_github.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# entre na pasta do projeto
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+$ cd repos
 
-### Code Splitting
+```
+### 💻 Executando projeto web
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Instale as dependências
 
-### Analyzing the Bundle Size
+```bash
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+$ yarn install
 
-### Making a Progressive Web App
+# ou, caso use npm
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+$ npm install
 
-### Advanced Configuration
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Rode a aplicação
 
-### Deployment
+```bash
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+$ yarn start
 
-### `yarn build` fails to minify
+# ou, caso use npm
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+$ npm start
+
+```
+---
+
+## 🛠️ Tecnologias
+
+Principais tecnologias utilizadas no desenvolvimento do projeto.
+
+#### Web:
+- ReactJS ⚛️
+- React Router Dom
+- API do GitHub
+- Styled Components
+- React Icons
+---
+
+## ⚙️ Como contribuir
+
+- Faça um fork desse repositório;
+- Crie uma branch com a sua feature: `git checkout -b minha-feature`;
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça push para a sua branch: `git push origin minha-feature`.
+
+---
+
+## 📝 Licença
+
+Este projeto está sob licença [MIT](./LICENSE).
+
+<p>Feito com 💙 por <a href="https://www.linkedin.com/in/silviodiasjr/">Silvio Dias</a></p>
