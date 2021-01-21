@@ -2,7 +2,7 @@
 
 <p align="center">Liste as issues de seus repósitorios</p>
 
-<p align="center">
+<p >
  •<a href="#-sobre"> Sobre</a> </br>
  •<a href="#-layout"> Layout</a> </br>
  •<a href="#-executando-o-happy"> Como executar</a> </br> 
